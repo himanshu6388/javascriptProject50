@@ -1,0 +1,26 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button{
+    height: 60px;
+    width: 260px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: #cfcdcd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin-top: 300px;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: #fff;
+    color: #000;
+}
