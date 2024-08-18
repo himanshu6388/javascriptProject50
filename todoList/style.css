@@ -41,9 +41,11 @@ body{
     color: #fff;
     font-size: 15px;
     font-weight: 600;
+    cursor: pointer;
 }
 #taskList{
     list-style: none;
+    margin-right: 30px;
 }
 li{
     padding: 10px;
@@ -54,4 +56,12 @@ li{
     background-color: blueviolet;
     border-radius: 3px;
     border: none;
+    margin-top: 5px;
+}
+.delete{
+    margin-left: 500px;
+    cursor: pointer;
+}
+.delete:hover{
+    color: red;
 }
