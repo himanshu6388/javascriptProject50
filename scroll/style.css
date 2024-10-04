@@ -1,0 +1,29 @@
+body {
+    height: 2000px; /* Making the page long enough to scroll */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.progress-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+}
+.progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%;
+}
+.scroll-info {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
